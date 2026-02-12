@@ -1,0 +1,38 @@
+name: hukum_ohm_aps
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_math_fork: ^0.7.4
+  connectivity_plus: ^5.0.0
+  http: ^1.6.0
+  shared_preferences: ^2.2.0
+  syncfusion_flutter_pdfviewer: ^27.2.5
+  youtube_player_flutter: ^9.0.3
+  url_launcher: ^6.3.2
+  flutter_markdown: ^0.7.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/files/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo_eduzell_transparan.png"
+  min_sdk_android: 21
